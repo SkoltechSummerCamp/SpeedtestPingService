@@ -1,3 +1,3 @@
 
 # SpeedtestPingService
-  Представляет собой jar-файл, который после запуска начинает прослушивать 49121-й порт по udp. Все приходящие от клиента пакеты он возвращает отправителю. На стороне клиента уникальность каждого пакета обеспечивается привязкой его содержимого ко времени его отправки ("Ping at <время отправки в миллисекундах>").
+Just a jar file that binds 49121 udp port after running. It sends back all incoming packets from clients. The client can calculate the connection delay simply by calculating the time between sending and receiving some unique packet.
